@@ -1,0 +1,38 @@
+.select__control {
+    background-color: #152836 !important;
+    height: 100%;
+    border: none !important;
+}
+.select__value-container {
+    padding-left: 16px !important;
+}
+.select__input-container {
+    font-size: 14px !important;
+}
+.select__control--is-focused {
+    box-shadow: none !important;
+    border-color: #152836;
+}
+.select__indicator-separator {
+    display: none;
+}
+.select__dropdown-indicator {
+    padding: 0 20px 0 0 !important;
+    transition: all .2s ease-in !important;
+}
+#model .select__control--menu-is-open .select__dropdown-indicator,
+#brand .select__control--menu-is-open .select__dropdown-indicator {
+    transform: rotateX(180deg);
+}
+.select__single-value,
+.select__placeholder {
+    color: #ffffff !important;
+}
+.select__menu {
+    margin: 0 !important;
+    color: #989898;
+    background-color: #152836 !important;
+}
+.select__control {
+    cursor: pointer !important;
+}

@@ -1,0 +1,9 @@
+@import "variables.module";
+
+.main {
+    color: $white;
+}
+.body {
+    overflow-x: hidden;
+    background: $dark-secondary;
+}

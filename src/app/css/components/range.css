@@ -1,0 +1,24 @@
+.multi-range-slider {
+     border: none !important;
+     box-shadow: none !important;
+}
+.multi-range-slider .ruler {
+     display: none !important;
+}
+.multi-range-slider .thumb {
+     background-color: #4DA8DA !important;
+}
+.multi-range-slider .thumb::before {
+     width: 24px !important;
+     height: 24px !important;
+     box-shadow: none !important;
+     border-color: #4DA8DA;
+}
+.multi-range-slider .bar-inner {
+     background-color: #152836 !important;
+     border: solid 1px #152836 !important;
+     box-shadow: none !important;
+}
+.multi-range-slider .labels {
+     display: none !important;
+}

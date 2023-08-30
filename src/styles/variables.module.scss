@@ -1,0 +1,24 @@
+$white: #ffffff;
+$primary: #007CC7;
+$primary-accent: #4DA8DA;
+$dark-primary: #004A77;
+$light-secondary: #152836;
+$dark-secondary: #0B0C10;
+$secondary-accent: #071620;
+$gray-1: #989898;
+$gray-2: #A9A9A9;
+
+
+
+
+:export {
+    white: $white;
+    dark-primary: $dark-primary;
+    dark-secondary: $dark-secondary;
+    gray-1: $gray-1;
+    gray-2: $gray-2;
+    primary: $primary;
+    primary-accent: $primary-accent;
+    secondary-accent: $secondary-accent;
+    light-secondary: $light-secondary;
+}
